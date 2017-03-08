@@ -1,0 +1,41 @@
+body {
+	color: #362f2d;
+	background-color: #f599af;
+}
+#foodCards {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+
+}
+#catFoodCards {
+	display: inline-flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 20px;
+}
+.card {
+	width: 30%;
+	border: 3px solid #00a651;
+	border-radius: 10px;
+	background-color: #41f197;
+	margin-right: 20px;
+}
+.brand {
+	color: white;
+	width: 100%;
+	background-color: #00a651;
+	text-align: center;
+	height: 50px;
+	margin: 0px;
+	padding-top: 15px;
+}
+h3 {
+	margin: 0px;
+}
+.types {
+	border: 1px solid white;
+	background-color: white;
+}
