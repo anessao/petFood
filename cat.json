@@ -36,18 +36,18 @@
       ]
     },
     {
-      "name": "Purina",
+      "name": "Meow Meal",
       "types": [
         {
           "type": "Kitten",
           "volumes": [
             {
               "name": "24oz",
-              "price": 8.99
+              "price": 19.99
             },
             {
               "name": "48oz",
-              "price": 14.99
+              "price": 34.99
             }
           ]
         },
@@ -56,11 +56,11 @@
           "volumes": [
             {
               "name": "28oz",
-              "price": 19.99
+              "price": 22.99
             },
             {
               "name": "56oz",
-              "price": 24.99
+              "price": 40.99
             }
           ]
         }
