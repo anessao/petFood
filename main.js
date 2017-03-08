@@ -12,13 +12,14 @@ function makeDogCards (xhrData) {
 	foodString = '';
 	for (var x = 0; x < xhrData.dog_brands.length; x++) {
 		productInfo = xhrData.dog_brands[x];
-		foodString += `<div class="card"><div class="brand"><h3>Brand: ${productInfo.name}</h3></div>`;
+		foodString += `<div class="card"><div class="brand"><h3>${productInfo.name}</h3></div>`;
 		for (var z = 0; z < productInfo.types.length; z++) {
-			foodString += `<div class="types"><p>${productInfo.types[z].type}</p></div>`;
-			for (var a = 0; a < productInfo.types[x].volumes.length; a++) {
-				foodString += `<p>Volumes: ${productInfo.types[z].volumes[a].name}</p>`;
+			foodString += `<div class="types"><h4>${productInfo.types[z].type}</h4>`;
+			for (var a = 0; a < productInfo.types[z].volumes.length; a++) {
+				foodString += `<hr><p>Volumes: ${productInfo.types[z].volumes[a].name}</p>`;
 				foodString += `<p>Price: ${productInfo.types[z].volumes[a].price}</p>`;
 			}
+			foodString += `</div>`
 		}
 		foodString += `</div>`
 	}
@@ -28,22 +29,28 @@ function makeDogCards (xhrData) {
 /********************************
 MAKE CAT DOM CARDS
 ********************************/
+
 function makeCatCards (xhrData) {
 	foodString = '';
 	for (var x = 0; x < xhrData.cat_brands.length; x++) {
 		productInfo = xhrData.cat_brands[x];
-		foodString += `<div class="card"><div class="brand"><h3>Brand: ${productInfo.name}</h3></div>`;
+		foodString += `<div class="card"><div class="brand"><h3>${productInfo.name}</h3></div>`;
 		for (var z = 0; z < productInfo.types.length; z++) {
-			foodString += `<div class="types"><p>${productInfo.types[z].type}</p></div>`;
-			for (var a = 0; a < productInfo.types[x].volumes.length; a++) {
-				foodString += `<p>Volumes: ${productInfo.types[z].volumes[a].name}</p>`;
+			foodString += `<div class="types"><h4>${productInfo.types[z].type}</h4>`;
+			for (var a = 0; a < productInfo.types[z].volumes.length; a++) {
+				foodString += `<hr><p>Volumes: ${productInfo.types[z].volumes[a].name}</p>`;
 				foodString += `<p>Price: ${productInfo.types[z].volumes[a].price}</p>`;
 			}
+			foodString += `</div>`
 		}
 		foodString += `</div>`
 	}
 	catFoodCards.innerHTML = foodString;
 }
+
+
+
+
 
 /********************************
 FUNCTION TO RUN WITH DOG JSON

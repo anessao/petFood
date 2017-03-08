@@ -1,31 +1,35 @@
 {
   "cat_brands": [
     {
-      "name": "Cat Chow",
+      "name": "Purrina",
       "types": [
         {
-          "type": "All Natural",
+          "type": "Kitten",
           "volumes": [
             {
+              "name": "20oz",
+              "price": 19.99
+            },
+            {
               "name": "32oz",
-              "price": 12.99
+              "price": 26.99
             },
             {
               "name": "64oz",
-              "price": 23.99
+              "price": 34.99
             }
           ]
         },
         {
-          "type": "Standard",
+          "type": "Elite",
           "volumes": [
             {
-              "name": "58oz",
-              "price": 16.99
+              "name": "20oz",
+              "price": 24.99
             },
             {
-              "name": "72oz",
-              "price": 40.99
+              "name": "40oz",
+              "price": 47.99
             }
           ]
         }
@@ -38,24 +42,24 @@
           "type": "Kitten",
           "volumes": [
             {
-              "name": "16oz",
+              "name": "24oz",
               "price": 8.99
             },
             {
-              "name": "24oz",
+              "name": "48oz",
               "price": 14.99
             }
           ]
         },
         {
-          "type": "Standard",
+          "type": "Adult",
           "volumes": [
             {
-              "name": "58oz",
+              "name": "28oz",
               "price": 19.99
             },
             {
-              "name": "72oz",
+              "name": "56oz",
               "price": 24.99
             }
           ]
