@@ -39,10 +39,11 @@ foodString += "</div>"
 4. http-server -p 8080
 ```
 
-#### SCREENSHOT AFTER BUTTON CLICKS
-![before and after button clicks](https://raw.githubusercontent.com/anessao/guineaPig/guineaPig/Screen%20Shot%202017-03-20%20at%208.37.18%20PM.png)
+#### SCREENSHOT JSON DATA WRITTEN TO DOM
+![JSON data written to DOM](https://raw.githubusercontent.com/anessao/petFood/json/Screen%20Shot%202017-03-20%20at%208.58.45%20PM.png)
 
 #### TECHNOLOGIES USED
 - JavaScript
 - HTML
 - CSS
+- JSON
